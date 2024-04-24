@@ -21,12 +21,14 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 25px;
+	color: #fff;
 }
 .carousel-caption p {
 	width: 60%;
 	margin: auto;
 	font-size: 18px;
 	line-height: 1.9;
+	color: #fff;
 }
 .carousel-inner:before {
 	content: '';
@@ -35,7 +37,7 @@ body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.4);
 	z-index: 1;
 }
 .navbar .getstarted {
@@ -70,7 +72,7 @@ body {
 	color: #000;
 }
 .w-100 {
-	height: 100vh;
+	height: 105vh;
 }
 .navbar-toggler {
 	padding: 1px 5px;
@@ -131,6 +133,107 @@ body {
 	}
 }
 
+/* Footer */
+footer{
+    background-color: #008080;
+}
+.footer{
+    background: #008080;
+    margin-top: 100px;
+    position: sticky;
+    margin-bottom: -30px;
+}
+.titre{
+    writing-mode: vertical-rl;
+    font-size: 30px;
+    transform: rotate(180deg);
+    margin-left: 60px;
+    color: #B6D0E2;
+}
+hr{
+    background-color:#522418 ;
+    width: 50%;
+    height: 3px;
+    
+}
+.titr{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+.HI{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.footer-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-link a:hover{
+    color: #522418;
+}
+.footer-link li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    position: relative;
+}
+.footer-link li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%) ;
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #522418;
+    transition-duration: .5s;
+}
+.footer-link li:hover:before{
+    width: 90px;
+}
+
+.footer-social {
+    line-height: 0;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    }
+
+.footer-social a{
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.fa-brands{
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+.fa-brands:hover{
+    color: #522418;
+}
+.botton-bar{
+    padding: 10px;
+}
+.botton-bar p{
+    text-align: center;
+}
+.separation{
+    width: 1200px;
+    height: 2px;
+    background-color: #522418;
+    margin: 0 0 0 8px;
+}
 
 
 
