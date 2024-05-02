@@ -40,9 +40,6 @@ body {
 	background: rgba(0, 0, 0, 0.4);
 	z-index: 1;
 }
-nav{
-	background-color: #008080;
-}
 .navbar .getstarted {
 	background: #106eea;
 	margin-left: 30px;
