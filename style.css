@@ -83,11 +83,8 @@ body {
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
-.portfolio .img-fluid{
-	border-image-repeat: round;
-}
-.portfolio .img-area{
-	im
+.portfolio .card-body{
+	block-size: 650px;
 }
 .team .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
@@ -103,6 +100,9 @@ body {
 }
 .team .card-body i {
 	font-size: 20px;
+}
+.team .card-body{
+	block-size: 600px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
@@ -163,9 +163,11 @@ footer{
     color: #B6D0E2;
 }
 hr{
-    background-color:#522418 ;
+	height: 2px;
+	background-color: #522418;
+    color:#522418 ;
     width: 50%;
-    height: 3px;
+	margin-left: 90px;
     
 }
 .titr{
@@ -241,10 +243,11 @@ hr{
     text-align: center;
 }
 .separation{
-    width: 1200px;
+    width: 1300px;
     height: 2px;
     background-color: #522418;
     margin: 0 0 0 8px;
+	margin-left: 20px;
 }
 
 
